@@ -3,10 +3,10 @@
 
 .header {
   &__logo {
-    margin-top: 1.25rem;
+    margin: 1.25rem 0 1rem;;
   }
   &__list {
-    margin: 0.5rem 1.6875rem 0 0;
+    margin: 0.5rem 1.75rem 0 0;
     @extend %reset-list;
   }
   &__list-item {
@@ -16,13 +16,12 @@
     font-weight: 600;
     margin-bottom: 2px;
     &::before {
-      margin-right: 1px;
+      margin-right: 6px;
       content: '';
       display: inline-block;
       height: 12px;
       width: 11px;
       background: url('../img/ic-check.png') no-repeat;
-      background-size: 9px;
     }
   }
 }
