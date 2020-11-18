@@ -1,3 +1,20 @@
+// Font styles
+// ---------------
 body {
   font-family: $font-family-base;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: $text-title;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: $text-subtitle;
+}
+
+h3 {
+  font-size: $text-l;
+  font-weight: 500;
 }
