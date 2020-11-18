@@ -100,3 +100,77 @@ var zip = ["Nowheresville XX, 00000"];
 
 /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
 autocomplete(document.getElementById("zip"), zip);
+
+
+/* Category Find Modal */
+
+function openModalFindCategory() {
+  document.getElementById("categoryFindBackdrop").style.display = "block"
+  document.getElementById("categoryFindModal").style.display = "block"
+  document.getElementById("categoryFindModal").className += "show"
+}
+function closeModalFindCategory() {
+  document.getElementById("categoryFindBackdrop").style.display = "none"
+  document.getElementById("categoryFindModal").style.display = "none"
+  document.getElementById("categoryFindModal").className += document.getElementById("categoryFindModal").className.replace("show", "")
+}
+// Get the modal
+var modal = document.getElementById('categoryFindModal');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+  if (event.target == modal) {
+    closeModalFindCategory()
+  }
+}
+
+/* Category Modal */
+
+function openModalCategory() {
+  document.getElementById("categoryBackdrop").style.display = "block"
+  document.getElementById("categoryModal").style.display = "block"
+  document.getElementById("categoryModal").className += "show"
+}
+function closeModalCategory() {
+  document.getElementById("categoryBackdrop").style.display = "none"
+  document.getElementById("categoryModal").style.display = "none"
+  document.getElementById("categoryModal").className += document.getElementById("categoryModal").className.replace("show", "")
+}
+// Get the modal
+var modal = document.getElementById('categoryModal');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+  if (event.target == modal) {
+    closeModalCategory()
+  }
+}
+
+/* Review Modal */
+
+function openModalReview() {
+  document.getElementById("reviewBackdrop").style.display = "block"
+  document.getElementById("reviewModal").style.display = "block"
+  document.getElementById("reviewModal").className += "show"
+}
+function closeModalReview() {
+  document.getElementById("reviewBackdrop").style.display = "none"
+  document.getElementById("reviewModal").style.display = "none"
+  document.getElementById("reviewModal").className += document.getElementById("reviewModal").className.replace("show", "")
+}
+// Get the modal
+var modalReview = document.getElementById('reviewModal');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+  if (event.target == modalReview) {
+    closeModalReview()
+  }
+}
+
+/* Take value from select */
+
+var selectedCategory = document.getElementById('chooseCategory').addEventListener('change', function() {
+  document.getElementById('selectedCategory').textContent = "";
+  document.getElementById('selectedCategory').textContent += this.value;
+});
