@@ -38,6 +38,9 @@
       font-size: $text-s;
       font-weight: 500;
       color: $brand-gray;
+      @include media-breakpoint-down(md) {
+        max-width: 100%;
+      }
       @include placeholder {
         color: $brand-gray;
       }
