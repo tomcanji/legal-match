@@ -1,0 +1,35 @@
+// Declare all placeholders here //
+// --------------------------------
+
+// Reset list placeholder
+// ----------------------
+%reset-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+// Reset spacing
+// -------------
+%reset-space {
+  padding: 0;
+  margin: 0;
+}
+
+// Clearfix placeholder
+// --------------------
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// Antialiase font fix
+// -------------------
+%font-fix {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-smoothing: antialiased;
+}

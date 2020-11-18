@@ -1,0 +1,19 @@
+// Custom Variables
+// ----------------
+// Fonts
+$font-family-base:            'Montserrat', sans-serif;
+
+// Font sizes
+
+$text-base:                   1rem;
+$text-xxl:                    $text-base * 1.5; /* 24px */
+$text-xl:                     $text-base * 1.375; /* 22px */
+$text-l:                      $text-base * 1.25; /* 20px */
+$text-m:                      $text-base * 1.12; /* 18px */
+$text-s:                      $text-base * 0.875; /* 14px */
+$text-xs:                     $text-base * 0.75; /* 12px */
+
+$line-height-base:            1.4;
+
+// Color system
+$white:                       #fff;
