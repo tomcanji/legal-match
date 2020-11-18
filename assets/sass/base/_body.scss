@@ -1,0 +1,11 @@
+body {
+  @extend %font-fix;
+  font-size: $text-base;
+  font-weight: 400;
+  font-size: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 100%;
+}

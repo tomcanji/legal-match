@@ -9902,5 +9902,54 @@ h3 {
 /* 18px */
 /* 14px */
 /* 12px */
+.header__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-smoothing: antialiased;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  font-size: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 100%;
+}
+
+.header__logo {
+  margin-top: 1.25rem;
+}
+.header__list {
+  margin: 0.5rem 1.6875rem 0 0;
+}
+.header__list-item {
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.header__list-item::before {
+  margin-right: 1px;
+  content: "";
+  display: inline-block;
+  height: 12px;
+  width: 11px;
+  background: url("../img/ic-check.png") no-repeat;
+  background-size: 9px;
+}
 
 /*# sourceMappingURL=style.css.map */
