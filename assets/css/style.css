@@ -9936,10 +9936,20 @@ h1 {
   font-weight: 200;
   font-size: 2.625rem;
 }
+@media (max-width: 991.98px) {
+  h1 {
+    font-size: 1.875rem;
+  }
+}
 
 h2 {
   font-weight: 500;
   font-size: 1.875rem;
+}
+@media (max-width: 991.98px) {
+  h2 {
+    font-size: 1.5rem;
+  }
 }
 
 h3 {
@@ -10010,6 +10020,11 @@ h3 {
   font-size: 0.875rem;
   font-weight: 500;
   color: #4e555c;
+}
+@media (max-width: 991.98px) {
+  .form .input_holder input, .form .input_holder select {
+    max-width: 100%;
+  }
 }
 .form .input_holder input::-webkit-input-placeholder, .form .input_holder select::-webkit-input-placeholder {
   color: #4e555c;
@@ -10098,6 +10113,12 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+@media (max-width: 991.98px) {
+  .footer__partners {
+    align-items: center;
+    padding-top: 2rem;
+  }
 }
 .footer__partners img {
   margin-bottom: 1.125rem;

@@ -7,11 +7,17 @@ body {
 h1 {
   font-weight: 200;
   font-size: $text-title;
+  @include media-breakpoint-down(md) {
+    font-size: $text-subtitle;
+  }
 }
 
 h2 {
   font-weight: 500;
   font-size: $text-subtitle;
+  @include media-breakpoint-down(md) {
+    font-size: $text-xxl;
+  }
 }
 
 h3 {
