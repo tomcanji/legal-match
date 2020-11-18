@@ -6,14 +6,22 @@ $font-family-base:            'Montserrat', sans-serif;
 // Font sizes
 
 $text-base:                   1rem;
+$text-title:                  $text-base * 2.625; /* 42px */
+$text-subtitle:               $text-base * 1.875; /* 30px */
 $text-xxl:                    $text-base * 1.5; /* 24px */
 $text-xl:                     $text-base * 1.375; /* 22px */
 $text-l:                      $text-base * 1.25; /* 20px */
 $text-m:                      $text-base * 1.12; /* 18px */
 $text-s:                      $text-base * 0.875; /* 14px */
-$text-xs:                     $text-base * 0.75; /* 12px */
+$text-xs:                     $text-base * 0.8125; /* 13px */
+$text-xxs:                    $text-base * 0.6875; /* 11px */
 
 $line-height-base:            1.4;
 
 // Color system
 $white:                       #fff;
+$brand-primary:               #001f5b;
+$brand-secondary:             #d68d00;
+$brand-highlight:             #fbd243;
+$brand-blue-highlight:        #2976ad;
+$brand-gray:                  #4e555c;
